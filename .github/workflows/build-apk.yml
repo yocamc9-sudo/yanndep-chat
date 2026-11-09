@@ -16,7 +16,7 @@ jobs:
       - run: npm install
       - run: npx cap add android --packagemanager npm
       - run: npm install @capacitor/assets --save-dev
-      - run: npx capacitor-assets generate --android --iconBackgroundSource IMG-20261109-WA0084.jpg --icon IMG-20261109-WA0084.jpg
+      - run: npx capacitor-assets generate --android --iconBackgroundColor '#00e5ff' --iconBackgroundColorDark '#00e5ff'
       - run: npx cap sync android
       - run: cd android && chmod +x gradlew && ./gradlew assembleDebug
       - uses: actions/upload-artifact@v4
