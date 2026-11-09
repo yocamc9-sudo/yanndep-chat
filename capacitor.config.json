@@ -1,0 +1,9 @@
+{
+  "appId": "id.my.yanndepchat",
+  "appName": "YannDep Chat",
+  "webDir": "www",
+  "server": {
+    "url": "https://yanndepchat.my.id",
+    "cleartext": true
+  }
+}
